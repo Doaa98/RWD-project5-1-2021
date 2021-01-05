@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Register
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="sass.css">
+        <link rel="stylesheet" href="bootstrap.min.css">  
+        <script src="jquery.min.js"></script>
+        <script src="popper.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+    </head>
+    <body>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" data-backdrop="static">
+            Register
+          </button>
+          <br>
+          <div id="welcom"></div>
+        
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title"> Register </h4>
+                  
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                   <label for="uname">username</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <input type="text" id="uname" placeholder="enter username"><br>
+                   <label for="pwd">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <input type="password" id="pwd" ><br>
+                   <label for="nid">National ID</label>&nbsp;&nbsp;
+                   <input type="text" id="nid" placeholder="enter national id"><br>
+                   <label for="visa">visa number</label>
+                   <input type="text" id="visa" ><br>
+                   <label for="email">E-Mail</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <input type="email" id="email" placeholder="enter e-mail"><br>
+                   <input type="radio" id="languageA" name="lang">
+                   <label for="languageA">languageA</label>
+                   <br>
+                   <input type="radio" id="languageB" name="lang">
+                   <label for="languageB">languageB</label>
+                   <br>
+                  
+                  
+                   
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" id="register" class="btn btn-success" data-dismiss="modal">Register</button>
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>        
+    </body>
+</html>

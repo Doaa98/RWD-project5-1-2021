@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Log in
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="sass.css">
+        <link rel="stylesheet" href="bootstrap.min.css">  
+        <script src="jquery.min.js"></script>
+        <script src="popper.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+    </head>
+    <body>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" data-backdrop="static">
+            log in
+          </button>
+          <br>
+          <div id="welcom"></div>
+        
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title"> log in</h4>
+                  
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                   <label for="uname">username</label>
+                   <input type="text" id="uname" placeholder="enter username"><br>
+                   <label for="pwd">Password</label>
+                   <input type="password" id="pwd" ><br>
+                  
+                   
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" id="register" class="btn btn-success" data-dismiss="modal">Log in</button>
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>        
+    </body>
+</html>
